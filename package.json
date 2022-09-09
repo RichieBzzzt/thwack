@@ -1,0 +1,23 @@
+{
+    "name": "thwack",
+    "displayName": "thwack",
+    "description": "a fun (and green!) vs code theme",
+    "publisher": "richiebzzzt",
+    "icon": "images/icon.png",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.71.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "thwack",
+                "uiTheme": "vs",
+                "path": "./themes/thwack-color-theme.json"
+            }
+        ]
+    }
+}
